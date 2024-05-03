@@ -1,0 +1,32 @@
+{
+  "dataset": "bfs_les",
+  "data_location": [
+    "./data/data0.npy",
+    "./data/data1.npy"
+  ],
+  "trajec_max_len": 3000,
+  "start_n": 200,
+  "n_span": 3001,
+  "trajec_max_len_valid": 200,
+  "start_n_valid": 3200,
+  "n_span_valid": 201,
+  "n_embd": 256,
+  "embd_pdrop": 0.0,
+  "layer_norm_epsilon": 1e-05,
+  "n_channels": 2,
+  "batch_size": 1,
+  "batch_size_valid": 1,
+  "device": "cuda:0",
+  "epoch_num": 1000,
+  "learning_rate": 1e-05,
+  "gamma": 0.99083194489,
+  "march_tol": 0.01,
+  "time": "2024_01_30_15_57_29",
+  "dir_output": "output/",
+  "fname": "bfs_les_2024_01_30_15_57_29",
+  "experiment_path": "output/bfs_les_2024_01_30_15_57_29",
+  "model_save_path": "output/bfs_les_2024_01_30_15_57_29/model_save/",
+  "logging_path": "output/bfs_les_2024_01_30_15_57_29/logging/",
+  "current_model_save_path": "output/bfs_les_2024_01_30_15_57_29/model_save/",
+  "logging_epoch_path": "output/bfs_les_2024_01_30_15_57_29/logging/epoch_history.csv"
+}
